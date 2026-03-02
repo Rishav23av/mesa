@@ -84,6 +84,7 @@ class FixedCell(HasCell):
 
     @property
     def cell(self) -> Cell | None:
+        """The cell the agent is fixed to."""
         return self._mesa_cell
 
     @cell.setter
